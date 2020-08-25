@@ -100,3 +100,12 @@ padding-right:5px;
 padding-top:5px;
 margin-left:150px;
 }
+
+table, th, td {
+text-align: left;
+padding: 3px;
+}
+
+function decLegend() {
+  var url = window.open('https://mpftutorials.github.io/docs/decslegend.html', '', 'width=700,height=900,left=250,top=0');
+}
