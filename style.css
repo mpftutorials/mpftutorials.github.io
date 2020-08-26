@@ -106,8 +106,8 @@ text-align: left;
 padding: 3px;
 }
 
-ol, ul {
-padding: 3px;
+ol li, ul li {
+  padding: 3px;
 }
 
 function decLegend() {
