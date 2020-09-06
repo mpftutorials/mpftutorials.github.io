@@ -4,6 +4,11 @@
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
 <LINK rel="stylesheet" TYPE="text/css" href="style.css">
 </HEAD>
+<script>
+function directory() {
+  var url = window.open('https://mpftutorials.github.io/docs/directory.html', '', 'width=700,height=750,left=400,top=0');
+}
+</script>
 <TITLE> main </TITLE>
 <BODY ID="main">
 
@@ -127,12 +132,13 @@ In that case, we can still push the member's evaluation in vPC but we will need 
 A member's next base can be found by looking up the member's SURF, but I also like to check AMS as it's much faster (for me).
 	
 <ol>
-	<li>Go to <a href="https://w45.afpc.randolph.af.mil/AFPCSecureNet40/CheckPortal.aspx" TARGET="new">AMS</a> > select MPF > Personnel Information > Member Search > type SSN
-<li>Save EPR with (their new base) in parenthesis on the file name
-<li> To find POC of FM at their base, go to:
-<dd>G:\SHARED\FSS\FSP\FSPM\FSPM - Force Management\Mail-Outs\Mailing Addresses</dd>
-<dd>then the Excel file: mailing addresses all addresses updated</dd>
-<li>CtrlF the base, look at ADDRESS then search on Outlook's Global address list (format: 65 fsf/fsmp) to find either the FM or specifically the eval's org box.
+	<li>If the member's profile doesn't pop up on milPDS, they might have PCSed
+	<li>Go to <a href="https://w45.afpc.randolph.af.mil/AFPCSecureNet40/CheckPortal.aspx" TARGET="new">AMS</a> 
+		> select MPF > Personnel Information > Member Search > type SSN
+	<li>On vPC, save the member's EPR/OPR, but write down the name of their next base on the file name
+	<li> To find the POC of FM at their base, refer to this directory:
+		<dd><button onclick="directory()">Click Here for the Directory of MPFs</button></dd>
+	<li>CtrlF the base, look at ADDRESS then search on Outlook's Global address list (format: 65 fsf/fsmp) to find either the FM or specifically the eval's org box.
 
 </ol>
 <BR>
