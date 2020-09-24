@@ -34,9 +34,20 @@ function checklist() {
 	
 <b>IF THERE IS ERROR WHEN YOU PUSH</B>, read the error. Examples of errors what it means and what you need to do:
 <ul>
-	<li>reee
-	<li>reeee
-	<li>reee
+	<li><B>ORA-20001: decor_validation: N, err_msg, Cannot input same number while adding</b>
+		<dd>This error means that the "Decoration Count" is wrong because there are already a previous decoration of the same kind before it.<BR>
+			For example, let's say a member has an AFAM already, but the site (for a new AFAM) says "Decoration Count: 1", it means the Decoration Count
+			should be 2 because the member alerady has an AFAM and this current site is pushing for a second AFAM, not a first one.</dd>
+	<li><B>The document upload failed.  ARMS has indicated that this document already exists for this service member during this evaluation period.
+		You will need to remove the existing document from ARMS before this document can be uploaded.</b>
+		<dd>This means that this decoration already exists in PRDA and milPDS. 
+			<br>This often happens as a glitch while pushing the decoration, where vPC will push
+			the site twice and duplicate its request. <BR>
+			In this case, save the copy of the final version of the decoration onto your desktop or folder, and then
+			return the site back to the CSS so they can close it.</dd>
+	<li><b>196-68-1829: MilPDS Error: ORA-20001: decor_validation: N, err_msg, 
+		Cannot input decoration data on projected records or gains until the complete record has been received from HAF</b>
+		<dd>I have no idea what this means</dd>
 </ul>
 	
 <hr>
