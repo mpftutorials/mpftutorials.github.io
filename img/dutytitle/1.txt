@@ -1,0 +1,82 @@
+Step 1. Press F11 key on
+the keyboard, Enter SSN in the National Identifier Field, Press Control key + F11 key on the keyboard. Click on member’s name
+
+---------------------
+
+Step 2. Click on the Duty Information button. 
+
+---------------------
+
+Step 3. Click the Alter Effective Date Calendar icon on the toolbar, Update the Effective 
+Date once the Alter Effective Date window appears, Click OK, Click Save.
+Note: Always alter the effective date when updating or correcting (Organization, Job AFSC, and Position number) unless the update action is effective today.
+
+
+---------------------
+
+Note: When making a correction (when the current effective date is correct, however, the Organization, Job or Position number is invalid) always alter the effective date to one day after the current effective date. EXAMPLE: SSgt Doe’s current effective date is  1-Nov-17, you would alter effective date to 2-Nov-17 when updating a correction. The Alter Effective Date window will populate with the new info.
+
+
+---------------------
+
+
+Updating the Organization
+
+Step 4. Delete the Organization. Click the List of Values button “…”. Type the first 4 letters of the PAS code followed by a percent sign (%) and Click the OK button.
+Select the appropriate PASCODE, then click OK button and save. 
+
+Note: Only click the correction button when correcting the current assignment effective date.
+
+---------------------
+
+Updating the Job DAFSC
+
+Step 5. Place the cursor in the Jobs field. Delete information  Click the LOV button. Type the new DAFSC (-3S071) and click OK.
+
+Step 6. Select the appropriate DAFSC, then click OK. 
+
+Step 7. Click Update button.
+
+Note: This will only appear if you did not change the organization (PAS code).
+
+Note: DAFSC must match position #, per the UMPR. If the DAFSC doesn’t match, then the position number will not populate.
+
+
+---------------------
+
+Updating the Position Number
+
+Step 8. Place the cursor in the Position field.  Click the LOV button. Type the partial/full position # or scroll to find position #, select position # and click OK.
+
+Step 9. Select the appropriate position number, then click OK. Select update, if, pop up box appears and save. 
+
+Step 10. Click the Duty Information button.
+
+
+---------------------
+
+
+Updating the Duty Title Information
+
+Step 11. Click Assignment Duty field. 
+
+Step 12. Click to the left of the first blank line to open field. Click blank highlighted field. A pop up box will appear.
+
+Note: Only update the current duty info field if you’re correcting erroneous data. 
+
+---------------------
+
+
+Step 13. Update the Duty Start Date. Update the DAFSC. Update the Duty Cmd Level. Update the Duty Title.
+
+Step 14. Click OK and save icon on the toolbar.
+
+
+
+
+
+
+
+
+
+
