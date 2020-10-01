@@ -117,3 +117,9 @@ ol li, ul li {
 function decLegend() {
   var url = window.open('https://mpftutorials.github.io/docs/decslegend.html', '', 'width=700,height=900,left=250,top=0');
 }
+
+
+body {
+  font-family: Arial; 
+  font-size: 12pt}
+
